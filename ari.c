@@ -1,3 +1,7 @@
+#include<stdio.h>
+#include<string.h>
+#include<cs50.h>
+#include<ctype.h>
 string ari(string a) 
 {int c,w,s;
 for(int i=0;i!='\0';i++)
@@ -38,6 +42,8 @@ break;
 case 13: return "College student";
 break;
 case 14: return "Professor";
+break;
+default: return 0;
 break;
 }
 }
